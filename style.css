@@ -1,0 +1,429 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.pic
+{
+    background-image: url(https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/09/twitter-1-1601019024.jpg);
+    
+    width: 100%;
+    height: 580px;
+}
+.header
+{
+background-color: rgba(20,220,60,0.5);
+    width: 100%;
+    height: 90px;
+}
+.logo
+{
+/*    background-color: aqua;*/
+    width: 10%;
+    height: 90px;
+margin-left: 10%;
+    display: inline-block;
+    vertical-align: top;
+/*    very imp to align the element vertically*/
+}
+.logo h1
+{
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.logo a
+{
+text-decoration: none;
+}
+.nav
+{
+/*background-color: coral;*/
+    width: 30%;
+    height: 90px;
+    margin-left: 10%;
+    display: inline-block;
+    margin-left: 40%;
+}
+.navlinks
+{
+    display: inline-block;
+    width: 24%;
+    height: 10px;
+    text-align: center;
+    margin-top: 10%;
+/*    transition: 0.5s ease-in-out;*/
+    color: black;
+}
+.navlinks:hover
+{
+
+   text-decoration: underline;
+text-decoration-color: darkred;
+ cursor: pointer;
+}
+.main
+{
+    background-image: url(images/io.png);
+    overflow-x: hidden;
+/*   background-color: gray;*/
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 90px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.main h1
+{
+    font-family: cursive;
+    color: yellow;
+        
+}
+
+.button
+{
+    color: black;
+    
+    background-color: red;
+    
+    border-radius: 80px;
+}
+.aftersec
+{
+/*   background-color: bisque;*/
+    width: 25%;
+    height: 250px;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    text-align: center;
+    color: red;
+    
+
+}
+.aftersec img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 60px;
+}
+.color
+{
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/06/04/57/twitter-3000965__340.png);
+    overflow: hidden;
+    padding: 20px;
+}
+.footer
+{
+/*    background-color: lightblue;*/
+    width: 100%;
+    height: 0px;
+}
+.footer-cont
+{
+/*    background-color: dimgray;*/
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    text-align: center;
+    font-family: serif;
+    padding-top: 20px;
+}
+.fot
+{
+background-color: gray;
+    width: 100%;
+    height: 60px;
+    margin-top: -20px;
+
+}
+.fot h3
+{
+    padding-top: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.fot img
+{
+   display:inline-block;
+    width: 20%;
+    height: 50px;
+
+}
+.icon 
+{
+display: inline-block;
+    margin-left: 50%;
+/*    color: fuchsia;   */
+}
+.iconn
+{
+display: inline-block;
+    margin-left: 50%;
+/*    color: fuchsia;   */
+}
+.icon a
+{
+    color: black;
+}
+
+/*================login pagee------------------------------------*/
+
+.picture
+{
+  background-color: black;
+    width: 100%;
+    height: 600px;
+}
+.form
+{
+    background-color: cadetblue;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+ margin-top: 20px;
+    text-align: center;
+   border-radius: 20px;
+}
+.field
+{
+    color: black;
+}
+.span
+{
+    color: aqua;
+      text-decoration: none;
+}
+
+/*-------------concact page*/
+.pictures
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHBOY7rnITsu7GoHGDgY_Xbb5OLQjQ4cCA7A&usqp=CAU);
+    
+    height: 530px;
+    
+}
+.details
+{
+    text-align: center;
+/*    background-color: brown;*/
+    width: 40%;
+    height: 160px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.details h2:hover 
+{
+    color:red; 
+}
+.details h3:hover{
+    color: aqua;
+}
+.last
+
+{
+/*    background-color: cornflowerblue;*/
+    width: 40%;
+    height: 200px;
+    margin-left: 30%;
+}
+.last img
+{
+    width: 40%;
+    height: 200px;
+    padding-left: 30%;
+}
+/*media for smaller screens*/
+@media(max-width: 700px)
+{
+    .nav
+    {
+        font-size: 7px;
+        text-align: center;
+        margin-top:20px;
+        font-family: thick;
+        margin-left: 130px;
+        font-weight: 800;
+        
+}
+    .navlinks
+    {
+width:38px;
+    
+    }
+    .aftersec
+    {
+          width: 0px;
+    height: 220px;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    text-align: center;
+    color: red;
+        display: 
+        
+    }
+    .aftersec img
+{
+    display: none;
+}
+    .aftersec p
+    {
+display: none;
+    }
+    .main
+    {
+         background-image: url(images/io.png);
+    overflow-x: hidden;
+/*   background-color: gray;*/
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+    margin-top: 60px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        
+  text-overflow: ellipsis;
+    }
+    .pic
+    {
+        height:670px;
+        text-align: center;
+    }
+    .footer-cont{
+        display: none;
+        
+    }
+    .aftersec iframe
+    {
+        width: 320px;
+        height: 220px;
+        margin-left: -10px;
+        vertical-align: top;
+        
+    }
+    .pictures 
+    {
+        height:700px;
+    }
+    .details
+    {
+    font-size: 20px;
+    }
+
+    .details h1
+    {
+    text-align: center;
+        color: red;
+    }
+    .details h2
+    {
+        text-align: center;
+        font-size: 35px;
+        color: green;
+        margin-left: -50px;
+        
+    }
+    .details h3
+    {
+        text-align: center;
+        margin-left: -100px;
+        color: black;
+       
+    }
+
+    .last img
+    {
+        width: 340px;
+        height: 388px;
+        margin-left: -130px;
+        margin-top: 110px;
+        
+    }
+    .fot
+    {
+        height: 50px;
+        font-size: 10px;
+        
+    }
+    .icon 
+    {
+height: 50px;
+        font-size: 15px;
+        margin-left: 30px;
+        
+    }
+   
+  
+
+    .iconn
+    {
+        height: 30px;
+        font-size: 15px;
+        margin-left: 30px;
+        
+    }
+    .pictures
+    {
+        height: 934px;
+    }
+    .fot h3
+    {
+        margin-left: 5px;
+    }
+    .main h1
+    {
+        font-family: sans-serif;
+        font-weight: 900;
+        color:red;
+    }
+
+}
+@media(max-width:700px)
+{
+    .lop
+    {
+        padding-bottom: 30px;
+    }
+    .fot
+    {
+        margin-top: 0px;
+    }
+    .picture
+{
+  background-color: black;
+    width: 100%;
+    height: 860px;
+}
+    .details h2
+    {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .details h3
+    {
+        font-size: 22px;
+    }
+    .iop
+    {
+margin-right: 10px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
